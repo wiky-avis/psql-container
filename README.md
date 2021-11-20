@@ -1,7 +1,9 @@
-## собрать и запустить контейнер с postgresql
+## Пример проектирование БД
+
+Cобрать и запустить контейнер с postgresql
   `docker-compose up -d`
 
-## содединиться с БД
+Cодединиться с БД
   `psql postgresql://userdb:password@localhost:5432/moviesdb`
 
-## выполнить все шаги описанные в файле schema_design.txt
+Выполнить все шаги описанные в файле schema_design.txt
